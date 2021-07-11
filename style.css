@@ -16,6 +16,8 @@
 
 .tetromino{
     background-color: royalblue;
+    box-shadow: inset 0px 0px 3px .01px #c3c7c1;
+    border-radius: 4px;
 }
 
 .mini-grid{

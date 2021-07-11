@@ -171,6 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(timerId) {
           clearInterval(timerId);
           timerId = null;
+          clear();
         }else {
           draw();
           timerId = setInterval(moveDown, 1000);
@@ -205,6 +206,20 @@ document.addEventListener('DOMContentLoaded', () => {
           clearInterval(timerId)
         }
       }
+
+      //clear
+      function clear(){
+        squares.classList.remove('tetromino')
+        squares.classList.remove('taken')
+        squares.style.backgroundColor = ''
+      }
+      
+
+
+      
+
+
+
 
 
 
