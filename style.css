@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+}
+
+.grid{
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino{
+    background-color: royalblue;
+}
+
+.mini-grid{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+
+.container{
+    margin: 5rem 40vw auto 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3, button{
+    transform: translateX(-4rem);
+}
+
+h3{
+    margin-top: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #008CBA;
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 25px;
+}
